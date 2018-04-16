@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+  float x, y, z, media;
+  
+  printf("####DIGITE AS MÉDIA DO 1º, 2º e 3º#######\n");
+  scanf("%f%f%f",&x, &y, &z);
+  media = (x+y+z)/3;
+  
+  printf("O valor calculado foi: %f\n", media);
+    
+  return 0;
+}
