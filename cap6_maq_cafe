@@ -1,0 +1,26 @@
+/*
+
+Uma máquiona automática de café só funciona com notas de 5 reais e nunca dá troco. o café custa 7 reais. Assim, se o cliente pedir apenas um café, ele vai perder 3 reais, pois terá que dar 10 reais, e a máquina não devolverá o troco.
+
+É possível comprar mais de um café em uma só compra. Logo, se o cliente colocou 15 reais, significa que ele vai obter dois café e perderá 1 real.
+
+Leia a quantidade de dinheiro que o cliente colocou na máquina (sempre um múltiplo de 5) e imprimia quanto o cliente irá perder de troco.
+
+*/
+
+
+
+#include <stdio.h>
+
+
+int main()
+
+{
+  int dinheiro, troco;
+  scanf("%d", &dinheiro);
+  
+  //calcula quanto o cliente perderá no troco
+  troco = dinheiro % 7;
+  printf("%d\n", troco);
+  return 0;
+}
