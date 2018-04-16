@@ -1,0 +1,17 @@
+/*IMC - identificar o peso ideal de uma pessoa*/
+
+
+#include <stdio.h>
+
+int main()
+
+{
+  float altura, massa, imc;
+  printf("Entre com sua ALTURA e MASSA: \n");
+  scanf("%f%f", &altura, &massa);
+  imc = massa/(altura*altura);
+  printf("IMC: %f\n", imc);
+  
+  return 0;
+  
+}
